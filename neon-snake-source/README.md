@@ -143,7 +143,3 @@ src/
 - **Input queue**: 3-deep direction buffer with anti-reverse protection — fast double-turns never drop.
 - **Rendering**: DPR-aware canvas (crisp on retina), checkerboard board, glowing food pulses, wrap-aware edge drawing, snake eyes that face the travel direction.
 - **Sound**: All effects are synthesized with oscillators + gain envelopes at runtime; zero audio assets.
-
-## License
-
-MIT — free to use, modify and distribute.
