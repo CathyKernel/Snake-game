@@ -34,7 +34,7 @@ bun run db:push
 bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and play.
+Open [https://snakegame-cathy.netlify.app/](https://snakegame-cathy.netlify.app/) and play.
 
 > The game is 100% client-side — no database or backend is required for gameplay.
 
