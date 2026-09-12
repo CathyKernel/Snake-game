@@ -1,0 +1,9 @@
+# Netlify 构建配置 — 必须放在仓库根目录才会被 Netlify 读取
+# base 指向仓库中 Next.js 项目的真实位置（两层嵌套）
+[build]
+  base = "snake-game-main/neon-snake-source"
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
